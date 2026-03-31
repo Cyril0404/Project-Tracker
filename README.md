@@ -149,11 +149,16 @@
 @CC 请开发 Project Tracker！
 
 **要求：**
-1. 参考 Linear / Raycast 风格，深色主题，UI要「非常好看」
-2. 功能：新建项目、添加任务、打勾动效、进度显示、筛选、Dark Mode
-3. 技术：HTML/CSS/JS 单文件，localStorage 存储
-4. 部署到 Vercel
-5. 完成后在 GitHub 提交代码
+1. **UI组件库**：使用 shadcn/ui（https://github.com/shadcn-ui/ui）
+   - shadcn/ui 是copy-paste模式，直接复制组件代码到项目
+   - 基于Radix UI + Tailwind CSS，深色精致风格
+   - 50+组件：Button、Checkbox、Progress、Dialog、Toast等全部有
+2. **UI要「非常好看」**：参考 Linear / Raycast 风格
+3. 功能：新建项目、添加任务、打勾动效、进度显示、筛选、Dark Mode
+4. 技术：React + shadcn/ui + localStorage + Vercel部署
+5. 完成后git push到仓库
 
-**参考链接：**
+**参考：**
+- shadcn/ui官方：https://github.com/shadcn-ui/ui
+- 文档：https://ui.shadcn.com/docs
 - 仓库：https://github.com/Cyril0404/Project-Tracker
